@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+@apply bg-zinc-900 text-zinc-100;
+}
+
+// CMS = Content Management System
+
+//Headless CMS: Painel de ADMIN ( Dados fornecidos através de uma API Rest ou GraphQL)
+// React que consome essa API do CMS
+
+
+//Query = Buscar Dados
+//Mutation = Criar, Alterar, Deletar
