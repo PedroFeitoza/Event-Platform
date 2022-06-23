@@ -1,5 +1,9 @@
+import Logo from './Assets/Logo';
+
 export function Header() {
     return (
-        <h1>Header</h1>
+        <header className='w-full py-5 flex justify-center bg-gray-700 border-b border-gray-600'>
+            <Logo />
+        </header>
     )
 }
